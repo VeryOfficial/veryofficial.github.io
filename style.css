@@ -1,0 +1,82 @@
+/* colors: 
+#61d925     green
+#259dd9     blue
+#d96125    brown
+#d92561      pink      */
+
+.everything{
+    width: 100%;
+    height: 100vh;   
+    display: flex;  
+    flex-direction: row;
+    font-family: 'Charis SIL', serif;
+}
+
+.box1, .box2, .box3{
+    height: 100vh;      
+}
+
+.box1, .box3{
+    width: 25%;
+    background-color:#61d925 ;
+    
+}
+
+.box2{
+    width: 50%;
+    background-color:#259dd9;
+        border: 5px solid #d92561;
+        color: #d10046;
+        font-weight: bold;
+        text-align: center;
+        overflow-y: scroll;
+    
+}
+
+.gameName{
+    color: #d92561;
+    font-size: 5vh;
+    font-weight: bold;
+}
+
+.image{
+    max-width: 100%;
+    max-height: 50vh;
+}
+
+.text{
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.list1{
+    width: 100%;
+    height: 100px;
+    text-align: left;
+    padding-left: 30%;
+    font-weight: lighter;
+}
+
+.list2{
+    width: 100%;
+    height: 100px;
+    text-align: left;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-bottom: 350px;
+}
+
+.list3{
+    width: 100%;
+    height: 100px;
+    text-align: left;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-bottom: 150px;
+}
+
+
+.imageDescription{
+    font-style: italic;
+    font-weight: lighter;
+}
